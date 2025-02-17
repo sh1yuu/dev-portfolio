@@ -15,6 +15,11 @@ export const metadata: Metadata = {
 	},
 	title: 'Personal Portfolio | Mikhail Shukanov',
 	description: 'Mikhail is a frontend developer with 1 year of experience',
+	openGraph: {
+		title: 'Personal Portfolio | Mikhail Shukanov',
+		description: 'Mikhail is a frontend developer with 1 year of experience',
+		images: ['../assets/seoimage.png'],
+	},
 }
 
 export default function RootLayout({
