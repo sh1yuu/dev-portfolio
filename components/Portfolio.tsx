@@ -69,7 +69,9 @@ export const Portfolio = () => {
 								className='p-6 flex justify-between items-center cursor-pointer bg-black/20 border border-white/10'
 								onClick={() => toggleExpand(index)}
 							>
-								<h3 className='text-4xl font-semibold'>{project.title}</h3>
+								<h3 className='text-1.5xl md:text-4xl font-semibold'>
+									{project.title}
+								</h3>
 								<div className='flex items-center space-x-4'>
 									<span className='text-3xl font-light text-emerald-300'>
 										0{index + 1}
