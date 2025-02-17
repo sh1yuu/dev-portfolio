@@ -71,7 +71,7 @@ export const Footer = () => {
 						SHUKANOV
 					</h1>
 
-					<h1 className='md:hidden relative text-7xl md:text-[12rem] lg:text-[5rem] font-bold text-white opacity-10'>
+					<h1 className='md:hidden relative text-5xl md:text-[12rem] lg:text-[5rem] font-bold text-white opacity-10'>
 						MIKHAIL
 						<br />
 						SHUKANOV
